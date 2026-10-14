@@ -54,3 +54,9 @@ Protótipo / projeto de estudo em desenvolvimento. A descrição acima distingue
 [GitHub](https://github.com/EuGeanCarlos)
 
 Licenças, autoria compartilhada e atribuições existentes no código e nos materiais originais permanecem aplicáveis.
+
+## Validação desta auditoria — 14/10/2026
+
+Sem publicação nova confirmada. mvn test aprovado, mas não há casos de teste versionados. A integração externa de câmbio não foi executada com credenciais reais.
+
+A chave da API é lida da variável de ambiente `EXCHANGE_RATE_API_KEY`. Configure-a localmente sem versionar o valor.
